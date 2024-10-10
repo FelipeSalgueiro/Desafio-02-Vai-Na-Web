@@ -21,11 +21,11 @@ header {
     align-items: center;
     width: 30%;
     img {
-        width: 100px;
+        width: 5vw;
     }
 }
 h1 {
-    font-size: 28px;
+    font-size: 2vw;
 }
 .nav-header {
     width: 40%;
@@ -33,7 +33,7 @@ h1 {
 ul {
     display: flex;
     justify-content: space-between;
-    font-size: 28px;
+    font-size: 2vw;
 }
 a:visited {
     color: white;
@@ -53,7 +53,7 @@ a:visited {
 }
 }
 p {
-    font-size: 25px;
+    font-size: 1.3vw;
 }
 .container-explicacao {
     display: flex;
@@ -74,6 +74,9 @@ p {
         align-items: center;
         height: 35vh;
         background-color: #FFD9EC;
+        img {
+            width: 13vw;
+        }
 }
 footer {
     display: flex;
@@ -88,7 +91,7 @@ footer {
         width: 20%;
     }
     li {
-        font-size: 18px;
+        font-size: 1vw;
         img {
             width: 100%;
         }
