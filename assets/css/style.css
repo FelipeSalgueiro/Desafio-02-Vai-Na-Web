@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", Serif;
+  color: #E4EEF1;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 11vh;
+  background-color: #FF69B4;
+}
+
+.container-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.container-logo img {
+  width: 100px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.nav-header {
+  width: 40%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
+}
+
+a:visited {
+  color: white;
+}
+
+.container-introducao {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+  background-color: #FFD9EC;
+}
+.container-introducao img {
+  width: 14vw;
+}
+.container-introducao .paragrafo-introducao {
+  color: black;
+  width: 51%;
+}
+
+p {
+  font-size: 25px;
+}
+
+.container-explicacao {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 25vh;
+  background-color: #FF69B4;
+}
+.container-explicacao p {
+  width: 57%;
+}
+.container-explicacao img {
+  width: 20vw;
+}
+
+.container-recomendacao {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 35vh;
+  background-color: #FFD9EC;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FF69B4;
+  height: 11vh;
+}
+footer img {
+  width: 4%;
+}
+footer ul {
+  width: 20%;
+}
+footer li {
+  font-size: 18px;
+}
+footer li img {
+  width: 100%;
+}
+footer .creditos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}/*# sourceMappingURL=style.css.map */
