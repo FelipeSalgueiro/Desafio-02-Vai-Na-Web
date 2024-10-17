@@ -33,6 +33,7 @@ h1 {
 ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 2vw;
 }
 a:visited {
@@ -102,5 +103,86 @@ footer {
         justify-content: space-around;
         align-items: center;
         width: 40%;
+    }
+}
+@media (max-width: 800px) {
+    header {
+        flex-direction: column;
+        height: 10vh;
+    }
+    .container-logo {
+        width: 100vw;
+        img {
+            width: 10%;
+        }
+    }
+    h1 {
+        font-size: 5vw;
+    }
+    .nav-header {
+        width: 100vw;
+    }
+    ul {
+        justify-content: space-evenly;
+    }
+    li {
+        font-size: 3vw;
+    }
+    .container-introducao {
+        flex-direction: column-reverse;
+        height: 35vh;
+        img {
+            width: 35%;
+        }
+        p {
+            width: 100vw;
+            font-size: 72%;
+            text-align: center;
+        }
+    }
+    .container-explicacao {
+        flex-direction: column;
+        height: 27vh;
+        img {
+            width: 60%;
+        }
+        p {
+            width: 100vw;
+            font-size: 80%;
+            text-align: center;
+        }
+    }
+    .container-recomendacao {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100vh;
+        li {
+            display: flex;
+            justify-content: center;
+        }
+        img {
+            width: 85%;
+        }
+    }
+    footer {
+        flex-direction: column-reverse;
+        height: 35vh;
+        img {
+            width: 25%;
+        }
+        ul {
+            width: 100vw;
+            img {
+                width: 65%;
+            }
+        }
+        .creditos {
+            width: 100vw;
+            height: 40%;
+            li {
+                border: solid black;
+                font-size: 3.5vw;
+            }
+        }
     }
 }
